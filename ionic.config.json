@@ -1,0 +1,7 @@
+{
+  "name": "GymFit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
