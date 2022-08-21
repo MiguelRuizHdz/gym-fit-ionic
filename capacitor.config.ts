@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'GymFit',
+  appId: 'com.miguelruizhdz.gymfit',
+  appName: 'Gym Fit',
   webDir: 'www',
   bundledWebRuntime: false
 };

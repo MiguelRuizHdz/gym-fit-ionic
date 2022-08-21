@@ -1,0 +1,39 @@
+ion-card {
+    position: relative;
+    text-align: center;
+    height: 165px;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+}
+
+ion-card-title {
+    position: absolute;
+    top: 32%;
+    font-size: 2.3em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+
+ion-card-subtitle {
+    font-size: 1.1em;
+    position: absolute;
+    top: 56%;
+    width: 100%;
+    color: #fff;
+}
+
+// .img-gradient{
+//     background-image: linear-gradient(197deg, rgba(100,100,100,1) 0%,rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 100%) !important;
+// }
+
+.img-gradient::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(197deg, rgba(100,100,100,.2) 0%,rgba(63,63,63,.4) 13.5%, rgba(29,29,29,.4) 33.33%, rgba(0,0,0,.5) 100%) !important;
+    // z-index: 0;
+}
